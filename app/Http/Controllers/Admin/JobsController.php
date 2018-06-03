@@ -459,4 +459,9 @@ class JobsController extends Controller
 		fclose($fp);
 		return (int)$max;
 	}
+
+    public function getJobTitle()
+    {
+        
+    }
 }
